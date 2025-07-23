@@ -23,7 +23,6 @@
 </html>
 
 
-/* === Fil 2: game.html === */
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -75,7 +74,6 @@
 </html>
 
 
-/* === Fil 3: manifest.json === */
 {
   "name": "Sten Sax Påse",
   "short_name": "SSP",
@@ -98,7 +96,6 @@
 }
 
 
-/* === Fil 4: service-worker.js === */
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('ssp-cache').then(cache => {
