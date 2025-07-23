@@ -1,4 +1,3 @@
-/* === Fil 4: service-worker.js === */
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('ssp-cache').then(cache => {
